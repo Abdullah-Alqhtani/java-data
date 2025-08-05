@@ -1,2 +1,2 @@
-# java-data
-save data from java and put it in list "not : all the data is fake "
+# java-gread
+it see the gread if you pass or not it colcelet the mid and final
