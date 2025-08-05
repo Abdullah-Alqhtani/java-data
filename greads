@@ -1,0 +1,37 @@
+package grades;
+import java.util.Scanner;
+
+public class grades {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+			
+			System.out.println("enter the fainal mark");
+			int n1 = input.nextInt();
+			
+			System.out.println("enter the mid mark");
+			int n2 = input.nextInt();
+	
+			int r1 = n1 + n2;	
+			
+			System.out.println(r1);
+			
+				  if (r1 > 50 && r1<=100  ) {
+			
+			System.out.println("you have passed");}
+			
+			else if (r1 < 50) {
+			 
+				System.out.println("you have failed");
+			}
+			else {
+				 System.out.println("Wronge entry");
+		
+		}
+	}
+
+}
+	
+			
+			 
+
